@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "cz-conventional-changelog": "3.0.2",
+    "eslint": "^7.23.0",
     "jest": "^26",
     "jest-cli": "^26",
     "ts-jest": "^24.1.0"
